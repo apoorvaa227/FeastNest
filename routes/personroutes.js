@@ -42,6 +42,8 @@ route.patch('/:id' , async (req , res) =>
         res.status(500).json({ error: err.message });
     }
 })
+
+
 route.delete('/:id' , async (req , res) =>
 {
     try
